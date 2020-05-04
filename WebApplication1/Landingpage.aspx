@@ -36,9 +36,9 @@
 			<div class="navbar">
 				<div class="logo">Properties Made Easy</div>
 				<ul>
-					<li><a href="About.aspx">REGISTER</a></li>
+					<li><a runat="server" id="register" class="btn" data-toggle="modal" data-target="#modalRegisterNewUser">Register</a></li>
 					<li><span>|</span></li>
-					<li><a runat="server" id="login" class="btn " data-toggle="modal" data-target="#modalRegisterForm">LOGIN</a></li>
+					<li><a runat="server" id="login" class="btn " data-toggle="modal" data-target="#modalRegisterForm">Login</a></li>
 				</ul>
 			</div>
 			<div class="info">
@@ -57,11 +57,11 @@
             <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
-                        <div class="modal-header text-center">
+                        <div class="modal-header text-center" style="background-color: #4eb5f1;">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
-                            <h4 style="font-size: x-large; margin-bottom: 0px;">Sign In</h4>
+                            <h4 style="font-size: x-large; margin-bottom: 0px; color: white;">Sign In</h4>
                         </div>
                         <div class="modal-body mx-3">
                             <div class="md-form mb-5">
@@ -73,11 +73,11 @@
                                 <input type="password" id="orangeForm-pass" class="form-control validate">
                             </div>
                         </div>
-                        <div class="modal-footer d-flex justify-content-left">
-                            <button class="close" data-dismiss="modal" data-target="#modalRegisterForm">Reset Password</button>
+                        <div class="modal-footer d-flex justify-content-left" style="padding: 5px 5px 5px 5px;">
+                            <button class="button3" data-dismiss="modal" data-target="#modalRegisterForm">Reset Password</button>
                         </div>
-                        <div class="modal-footer d-flex justify-content-center">
-                            <button class="close" data-dismiss="modal" data-target="#modalRegisterForm">Sign in</button>
+                        <div class="modal-footer d-flex justify-content-center" style="padding: 5px 5px 5px 5px;">
+                            <button class="button3" data-dismiss="modal" data-target="#modalRegisterForm">Sign in</button>
                         </div>
                     </div>
                 </div>
@@ -87,6 +87,41 @@
                     $('#modal').modal(toggle)
                 });
             </script>
+
+            <!-- Pop up window for when a user clicks register  ** ID FOR THIS ONE IS NOW modelRegisterNewUser **-->
+            <div class="modal fade" id="modalRegisterNewUser" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center" style="background-color: #4eb5f1;">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 style="font-size: x-large; margin-bottom: 0px; color: white;">Register</h4>
+                        </div>
+                        <div class="modal-body mx-3">
+                            <div class="md-form mb-5">
+                                <label data-error="wrong" data-success="right" for="orangeForm-name"> Full Name</label>
+                                <input type="text" id="orangeForm-newname" class="form-control validate">       
+                            </div>
+                            <div class="md-form mb-4">
+                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Password</label>
+                                <input type="password" id="orangeForm-newpass" class="form-control validate">
+                            </div>
+                            <div class="md-form mb-4">
+                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Confirm Password</label>
+                                <input type="password" id="orangeForm-confirmpass" class="form-control validate">
+                            </div>
+                            <div class="md-form mb-4">
+                                <label data-error="wrong" data-success="right" for="orangeForm-pass">E-mail Address</label>
+                                <input type="password" id="orangeForm-email" class="form-control validate">
+                            </div>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-center" style="padding: 5px 5px 5px 5px;">
+                            <button class="button3" data-dismiss="modal" data-target="#modalRegisterNewUser">Finished</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</form>
 	</body>
 </html>
