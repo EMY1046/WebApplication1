@@ -191,7 +191,7 @@ $(document).ready(function() {
         width: 470,
         buttons: {
             "Add": function() {
-                //alert("sent:" + addStartDate.format("dd-MM-yyyy hh:mm:ss tt") + "==" + addStartDate.toLocaleString());
+                alert("sent:" + addStartDate.format("dd-MM-yyyy hh:mm:ss tt") + "==" + addStartDate.toLocaleString());
                 var eventToAdd = {
                     title: $("#addEventName").val(),
                     description: $("#addEventDesc").val(),

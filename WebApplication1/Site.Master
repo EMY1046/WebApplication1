@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en">           
     <head runat="server">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider-min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
         <style>
             body {
                 font-family: Arial, Helvetica, sans-serif;
@@ -187,7 +186,14 @@
 
 
       <div style="width: auto; text-align: center; vertical-align: top">
-          
+           <span class="icon-bar" style="height: 2px">
+                     <div style="width: auto; text-align: right; vertical-align:top">
+                    <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                        <asp:ListItem>English</asp:ListItem>
+                        <asp:ListItem>Francais</asp:ListItem>
+                    </asp:DropDownList>
+                         </div>
+                    </span>
          <table style="margin-right: auto; margin-left: auto; vertical-align:top;text-align:left; border: none;">
 
             <tr>
@@ -205,6 +211,7 @@
                     <asp:Button ID="btnrent" runat="server" BackColor="#ff6a00" Font-Bold="True" Text="Renting" OnClick="btnrent_Click" />
                 &nbsp;&nbsp;
                     <asp:Button ID="btnSell" runat="server" BackColor="#ff6a00" Font-Bold="True" Text="Selling" OnClick="btnSell_Click" />
+                       
                 </td>  
             </tr>
             <tr>
@@ -253,7 +260,7 @@
                                                <tr>
                                                    <td>&nbsp;</td>
                                                </tr>
-                                               </asp:ContentPlaceHolder>
+                             </asp:ContentPlaceHolder>
                                                
                     </table>
                    </div> 
