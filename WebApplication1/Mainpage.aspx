@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/materialize.css"> 
+    <link rel="stylesheet" href="css/search_page_styles.css"/>
         <div class="body">
             <div>
                 <h1 style="font-size: xx-large;">Find Your Dream Home</h1>

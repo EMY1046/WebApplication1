@@ -11,21 +11,17 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        protected void btnBuy_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Mainpage.aspx");
         }
 
         protected void btnsearch_Click(object sender, EventArgs e)
         {
-            if (txtproperty.Text == "75067")
-            {
-                Response.Redirect("~/WebForm2.aspx");
-            }
-            else if (txtproperty.Text == "75068")
-            {
-                Response.Redirect("~/WebForm2.aspx");
-            }
-
-
+            Response.Redirect("~/WebForm2.aspx");
         }
 
         protected void btnSell_Click(object sender, EventArgs e)
