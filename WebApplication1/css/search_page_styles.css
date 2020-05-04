@@ -1,5 +1,5 @@
 ﻿body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato',sans-serif;
     padding-top: 0px;
 }
 
@@ -17,17 +17,18 @@
 }
 
 .navbar-nav > li > .btn {
-    margin: 3px 15px;
+    margin: 0px 15px;
 }
 
 #companyname {
     font-size: 20px;
-    color: #4eb5f1;
+    color: white;
     margin-top: 3px;
 }
 
 #register, #login {
-    color: #4eb5f1;
+    font-size: 20px;
+    color: white;
 }
 
 .btn {
@@ -167,6 +168,22 @@ a.button3:hover {
         display: block;
         margin: 0.2em auto;
     }
+}
+
+/* Styling for the register and sign in buttons */
+/* Button styling for the sign in and register forms */
+.button3 {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    s box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
 }
 
 /* Styling for the page layout*/
