@@ -3817,6 +3817,8 @@ tbody.collapse.in {
   position: relative;
   display: table;
   border-collapse: separate;
+    top: 26px;
+    left: -1px;
 }
 .input-group[class*="col-"] {
   float: none;
@@ -3953,6 +3955,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .input-group-btn > .btn {
   position: relative;
+    top: 0px;
+    left: 0px;
+    width: 39px;
 }
 .input-group-btn > .btn + .btn {
   margin-left: -1px;

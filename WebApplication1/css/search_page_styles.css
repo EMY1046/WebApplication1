@@ -1,6 +1,6 @@
 ﻿body {
     font-family: 'Lato',sans-serif;
-    padding-top: 0px;
+    padding-top: 70px;
 }
 
 * {
@@ -135,14 +135,13 @@
     width: auto;
     float: right;
     vertical-align: top;
-    margin-top: 70px;
     margin-right: 10px;
+    margin-top: 15px;
 }
 
 /* Styling for buy rent sell buttons */
 .button-container {
-    display: inline-block;
-    margin: 70px 0px 15px 10px;
+    margin-bottom: 10px;
 }
 
 a.button3 {
@@ -177,7 +176,7 @@ a.button3:hover {
     padding: 0.3em 1.2em;
     margin: 0 0.3em 0.3em 0;
     border-radius: 2em;
-    s box-sizing: border-box;
+    box-sizing: border-box;
     text-decoration: none;
     font-weight: 300;
     color: #FFFFFF;
@@ -188,15 +187,29 @@ a.button3:hover {
 
 /* Styling for the page layout*/
 .page-layout {
-    display: flex;
+    display: grid;
+    grid-template-columns: min-content 3fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
 }
 
-.filters {
-    width: 15%;
+.sidebar {
+    display: inline-grid;
     margin-left: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 
 .greeting {
-    text-align: center;
-    width: 80%
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 400px;
+
+    
 }
+
+

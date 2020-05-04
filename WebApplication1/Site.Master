@@ -145,54 +145,54 @@
                  </asp:DropDownList>
             </div>
 
-            <!-- Filter section and main section of the page -->
-            <div class="button-container">
-                <a href="Mainpage.aspx" class="button3">Buying</a><br />
-                <a href="Rental.aspx" class="button3">Renting</a><br />
-                <a href="PostingProperty.aspx" class="button3">Selling</a><br />
-            </div>
+            <!-- Filter section and main section of the page --> 
             <div class="page-layout">
-                <div class="filters">
-                    <table style="margin-right: auto; margin-left: 5px; vertical-align:top; text-align:left; border: none;">
-                    <tr>
-                        <td class="auto-style1">
-                            <asp:Label ID="lblFilter" runat="server" Font-Bold="True" Text="Filters" Font-Size="X-Large"></asp:Label>
-                            <br />
-                            <asp:Label ID="lblradius" runat="server" ForeColor="#4eb5f1" Text="Search radius" Font-Size="Large"></asp:Label>
-                            &nbsp;<asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="121px" >
-                            <asp:ListItem Value="0 - 20 Miles" Text="0 - 20 Miles"></asp:ListItem>
-                            <asp:ListItem Value="20 - 50 Miles" Text="20 - 50 Miles"></asp:ListItem>
-                            <asp:ListItem Value="50+ Miles" Text="50+ Miles"></asp:ListItem>
-                            </asp:CheckBoxList>  
+                <div class="sidebar">
+                    <div class="button-container">
+                        <a href="Mainpage.aspx" class="button3">Buying</a><br />
+                        <a href="Rental.aspx" class="button3">Renting</a><br />
+                        <a href="PostingProperty.aspx" class="button3">Selling</a><br />
+                    </div>
+                    <div class="filters">
+                        <table style="margin-right: auto; margin-left: 5px; vertical-align:top; text-align:left; border: none;">
+                        <tr>
+                            <td class="auto-style1">
+                                <asp:Label ID="lblFilter" runat="server" Font-Bold="True" Text="Filters" Font-Size="X-Large"></asp:Label>
+                                <br />
+                                <asp:Label ID="lblradius" runat="server" ForeColor="#4eb5f1" Text="Search radius" Font-Size="Large"></asp:Label>
+                                &nbsp;<asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="121px" >
+                                <asp:ListItem Value="0 - 20 Miles" Text="0 - 20 Miles"></asp:ListItem>
+                                <asp:ListItem Value="20 - 50 Miles" Text="20 - 50 Miles"></asp:ListItem>
+                                <asp:ListItem Value="50+ Miles" Text="50+ Miles"></asp:ListItem>
+                                </asp:CheckBoxList>  
 
-                            <asp:Label ID="lblBed" runat="server" ForeColor="#4eb5f1" Text="Bed" Font-Size="Large"></asp:Label>
-                            &nbsp;<asp:CheckBoxList ID="CheckBoxList2" runat="server" >
-                            <asp:ListItem Value="0 - 3" Text="0 - 3"></asp:ListItem>
-                            <asp:ListItem Value="4 - 6" Text="4 - 6"></asp:ListItem>
-                            <asp:ListItem Value="7+" Text="7+"></asp:ListItem>
-                            </asp:CheckBoxList> 
+                                <asp:Label ID="lblBed" runat="server" ForeColor="#4eb5f1" Text="Bed" Font-Size="Large"></asp:Label>
+                                &nbsp;<asp:CheckBoxList ID="CheckBoxList2" runat="server" >
+                                <asp:ListItem Value="0 - 3" Text="0 - 3"></asp:ListItem>
+                                <asp:ListItem Value="4 - 6" Text="4 - 6"></asp:ListItem>
+                                <asp:ListItem Value="7+" Text="7+"></asp:ListItem>
+                                </asp:CheckBoxList> 
 
-                            <asp:Label ID="lblbath" runat="server" ForeColor="#4eb5f1" Text="Bath" Font-Size="Large"></asp:Label>
-                            <asp:CheckBoxList ID="CheckBoxList3" runat="server" >
-                            <asp:ListItem Value="0 - 3" Text="0 - 3"></asp:ListItem>
-                            <asp:ListItem Value="4 - 6" Text="4 - 6"></asp:ListItem>
-                            <asp:ListItem Value="7+" Text="7+"></asp:ListItem>
-                            </asp:CheckBoxList> 
+                                <asp:Label ID="lblbath" runat="server" ForeColor="#4eb5f1" Text="Bath" Font-Size="Large"></asp:Label>
+                                <asp:CheckBoxList ID="CheckBoxList3" runat="server" >
+                                <asp:ListItem Value="0 - 3" Text="0 - 3"></asp:ListItem>
+                                <asp:ListItem Value="4 - 6" Text="4 - 6"></asp:ListItem>
+                                <asp:ListItem Value="7+" Text="7+"></asp:ListItem>
+                                </asp:CheckBoxList> 
 
-                            <asp:Label ID="lblprice" runat="server" ForeColor="#4eb5f1" Text="Price Range" Font-Size="Large"></asp:Label>
-                            <asp:CheckBoxList ID="CheckBoxList4" runat="server" Width="172px" >
-                            <asp:ListItem Value="$0 - $100000" Text="$0 - $100000"></asp:ListItem>
-                            <asp:ListItem Value="$100000 - $400000" Text="$100000 - $400000"></asp:ListItem>
-                            <asp:ListItem>$400000+</asp:ListItem>
-                            </asp:CheckBoxList><br />
-                        </td>  
-                    </tr>
-                </table>
+                                <asp:Label ID="lblprice" runat="server" ForeColor="#4eb5f1" Text="Price Range" Font-Size="Large"></asp:Label>
+                                <asp:CheckBoxList ID="CheckBoxList4" runat="server" Width="172px" >
+                                <asp:ListItem Value="$0 - $100000" Text="$0 - $100000"></asp:ListItem>
+                                <asp:ListItem Value="$100000 - $400000" Text="$100000 - $400000"></asp:ListItem>
+                                <asp:ListItem>$400000+</asp:ListItem>
+                                </asp:CheckBoxList><br />
+                            </td>  
+                        </tr>
+                        </table>
+                    </div>
                 </div>
-                <div class="greeting">    
-                    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>               
-                </div> 
-            </div>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>   
+            </div>             
         </form>
     </body>
 </html>
