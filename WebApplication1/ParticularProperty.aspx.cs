@@ -18,5 +18,10 @@ namespace WebApplication1
         {
             Response.Redirect("WebForm2.aspx");
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }

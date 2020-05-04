@@ -71,7 +71,7 @@
             </tr>
             <tr>
                 <td class="alignRight">
-                    Description:</td>
+                    Description1:</td>
                 <td class="alignLeft">
                     <textarea id="eventDesc" cols="30" rows="3" ></textarea></td>
             </tr>
@@ -99,7 +99,7 @@
             </tr>
             <tr>
                 <td class="alignRight">
-                    Description:</td>
+                    Description2:</td>
                 <td class="alignLeft">
                     <textarea id="addEventDesc" cols="30" rows="3" ></textarea></td>
             </tr>

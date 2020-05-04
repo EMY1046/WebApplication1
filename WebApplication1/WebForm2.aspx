@@ -53,20 +53,7 @@
     
       <div style="width: 100%; text-align: center; vertical-align: middle">
           
-        <table style="margin-right: auto; margin-left: auto;">
-            <tr>
-                <td>
-                   <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Default.aspx">1<<</asp:HyperLink>               
-                </td>
-                <td>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                </td>
-                <td>
-                  <asp:HyperLink ID="HyperLink1" runat="server" >2</asp:HyperLink>
-                                      
-                </td>
-            </tr>
-        </table>
+        
     </div>
 
 

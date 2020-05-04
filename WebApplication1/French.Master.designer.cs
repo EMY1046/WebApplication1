@@ -10,7 +10,7 @@
 namespace WebApplication1 {
     
     
-    public partial class SiteMaster {
+    public partial class French {
         
         /// <summary>
         /// HyperLink2 control.
