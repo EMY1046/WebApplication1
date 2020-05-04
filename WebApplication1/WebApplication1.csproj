@@ -116,6 +116,7 @@
     <Content Include="Defaults.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FrenchMainpage.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -136,6 +137,7 @@
     <Content Include="WebForm3.aspx" />
     <Content Include="Mainpage.aspx" />
     <Content Include="JsonResponse.ashx" />
+    <Content Include="French.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -201,6 +203,20 @@
     </Compile>
     <Compile Include="Defaults.aspx.designer.cs">
       <DependentUpon>Defaults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="French.Master.cs">
+      <DependentUpon>French.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="French.Master.designer.cs">
+      <DependentUpon>French.Master</DependentUpon>
+    </Compile>
+    <Compile Include="FrenchMainpage.aspx.cs">
+      <DependentUpon>FrenchMainpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrenchMainpage.aspx.designer.cs">
+      <DependentUpon>FrenchMainpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
