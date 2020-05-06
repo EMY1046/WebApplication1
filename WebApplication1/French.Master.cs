@@ -16,26 +16,19 @@ namespace WebApplication1
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (DropDownList1.SelectedValue == "Francais")
+            if (DropDownList1.SelectedValue == "English")
             {
-                Response.Redirect("~/FrenchMainpage.aspx");
+                Response.Redirect("~/Mainpage");
             }
             else
             {
-                Response.Redirect("~/Mainpage.aspx");
+                Response.Redirect("~/FrenchMainPage.aspx");
             }
         }
 
         protected void btnsearch_Click(object sender, EventArgs e)
         {
-            if (txtproperty.Text == "75067")
-            {
-                Response.Redirect("~/WebForm2.aspx");
-            }
-            else if (txtproperty.Text == "75068")
-            {
-                Response.Redirect("~/WebForm2.aspx");
-            }
+
         }
 
         protected void btnBuy_Click(object sender, EventArgs e)
