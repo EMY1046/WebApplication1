@@ -114,6 +114,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="css\buyresultstyles.css" />
     <Content Include="css\landingstyles.css" />
+    <Content Include="css\sellingstyles.css" />
     <Content Include="Default.aspx" />
     <Content Include="Defaults.aspx" />
     <Content Include="favicon.ico" />
