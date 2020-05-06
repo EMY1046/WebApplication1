@@ -60,7 +60,7 @@
                         <div class="input-group" style="margin-top: 0;">
                             <input type="text" class="form-control" placeholder="City, State, or Zip Code">
                                 <span class="input-group-btn">
-                                    <button class="btn btn-default" ID="btnsearch" type="submit" OnClick="location.href='Mainpage.aspx'"><i class="fa fa-search"></i></button>
+                                    <button class="btn btn-default" ID="btnsearch" type="submit" OnClick="location.href='/Mainpage.aspx'"><i class="fa fa-search"></i></button>
                                 </span>
                         </div>
                     </div>
