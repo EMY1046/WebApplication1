@@ -10,59 +10,222 @@
 
     <!-- Default search message for a default city -->
     <div class="main-content-block">
-        <p class="location-msg" style="font-size: medium;">Showing results for homes near Denton, TX</p>
+        <p class="location-msg" style="font-size: medium;">Showing results for rentals near Frisco, TX</p>
         <div class="card">
-            <img src="images/Listings/House1/front.png" alt="House1" style="width:100%">
+            <img src="images/Renting/Apt1/first.png" alt="House1" style="width:100%">
                 <div class="container">
-                    <h4><b>602 Loving Ct.</b></h4> 
-                    <p>Southlake, TX 76092</p> 
-                    <p>5 Bed, 4 Bath</p>
-                    <p>$895,000</p>
+                    <h4><b>3518 Bellaire Ct. </b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>5 Bed | 4 Bath | 3,893 sqft</p>
+                    <p>$3,000 a month</p>
                 </div>
         </div>
         <div class="card">
-            <img src="images/Listings/House2/front.png" alt="House2" style="width:100%">
+            <img src="images/Renting/Apt2/first.png" alt="House2" style="width:100%">
                 <div class="container">
-                    <h4><b>1100 Tealwood Ct.</b></h4> 
-                    <p>Southlake, TX 76092</p> 
-                    <p>4 Bed, 5 Bath</p>
-                    <p>$990,000</p>
+                    <h4><b>7777 Adelaide St.</b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>1 Bed | 1 Bath | 677 sqft</p>
+                    <p>$1,300 a month</p>
                 </div>
         </div>
         <div class="card">
-            <img src="images/Listings/House3/front.png" alt="House3" style="width:100%">
+            <img src="images/Renting/Apt3/first.png" alt="House3" style="width:100%">
                 <div class="container">
-                    <h4><b>2421 Top Rail Ln.</b></h4> 
-                    <p>Southlake, TX 76092</p> 
-                    <p>4 Bed, 4 Bath</p>
-                    <p>$865,000</p>
+                    <h4><b>4800 Printers Way</b></h4> 
+                    <p>Frisco, TX 75033</p> 
+                    <p>1 Bed | 1 Bath | 673 sqft</p>
+                    <p>$1,020 a month</p>
                 </div>
         </div>
         <div class="card">
-            <img src="images/Listings/House4/front.png" alt="House4" style="width:100%">
+            <img src="images/Renting/Apt4/first.png" alt="House4" style="width:100%">
                 <div class="container">
-                    <h4><b>1065 Highland Oaks Dr. </b></h4> 
-                    <p>Southlake, TX 76092</p> 
-                    <p>5 Bed, 4 Bath</p>
-                    <p>$629,000</p>
+                    <h4><b>8575 Jacobs St. </b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>2 Bed | 2.5 bath | 1,963 sqft</p>
+                    <p>$2,750 a month</p>
                 </div>
         </div>
         <div class="card">
-            <img src="images/Listings/House5/front.png" alt="House5" style="width:100%">
+            <img src="images/Renting/Apt5/first.png" alt="House5" style="width:100%">
                 <div class="container">
-                    <h4><b>702 Chaucer Ct.</b></h4> 
-                    <p>Southlake, TX 76092</p> 
-                    <p>5 Bed, 4 Bath</p>
-                    <p>$1,100,000</p>
+                    <h4><b>5807 Hidden Creek Ln.</b></h4> 
+                    <p>Frisco, TX 75036</p> 
+                    <p>5 Bed | 4.5 Bath | 3,915 sqft</p>
+                    <p>$2,900 a month</p>
                 </div>
         </div>
         <div class="card">
-            <img src="images/Listings/House6/front.png" alt="House6" style="width:100%">
+            <img src="images/Renting/Apt6/first.png" alt="House6" style="width:100%">
                 <div class="container">
-                    <h4><b>1982 E. Highland St.</b></h4> 
-                    <p>Southlake, TX 76092</p> 
-                    <p>5 Bed, 5.1 Bath</p>
-                    <p>$2,899,000</p>
+                    <h4><b>4255 Cotton Gin Rd.</b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>1 Bed | 1 Bath | 650 sqft</p>
+                    <p>$1,400 - $1,700 a month</p>
                 </div>
         </div>
+<div class="card">
+            <img src="images/Renting/Apt1/first.png" alt="House1" style="width:100%">
+                <div class="container">
+                    <h4><b>3518 Bellaire Ct. </b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>5 Bed | 4 Bath | 3,893 sqft</p>
+                    <p>$3,000 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt2/first.png" alt="House2" style="width:100%">
+                <div class="container">
+                    <h4><b>7777 Adelaide St.</b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>1 Bed | 1 Bath | 677 sqft</p>
+                    <p>$1,300 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt3/first.png" alt="House3" style="width:100%">
+                <div class="container">
+                    <h4><b>4800 Printers Way</b></h4> 
+                    <p>Frisco, TX 75033</p> 
+                    <p>1 Bed | 1 Bath | 673 sqft</p>
+                    <p>$1,020 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt4/first.png" alt="House4" style="width:100%">
+                <div class="container">
+                    <h4><b>8575 Jacobs St. </b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>2 Bed | 2.5 bath | 1,963 sqft</p>
+                    <p>$2,750 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt5/first.png" alt="House5" style="width:100%">
+                <div class="container">
+                    <h4><b>5807 Hidden Creek Ln.</b></h4> 
+                    <p>Frisco, TX 75036</p> 
+                    <p>5 Bed | 4.5 Bath | 3,915 sqft</p>
+                    <p>$2,900 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt6/first.png" alt="House6" style="width:100%">
+                <div class="container">
+                    <h4><b>4255 Cotton Gin Rd.</b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>1 Bed | 1 Bath | 650 sqft</p>
+                    <p>$1,400 - $1,700 a month</p>
+                </div>
+        </div>
+<div class="card">
+            <img src="images/Renting/Apt1/first.png" alt="House1" style="width:100%">
+                <div class="container">
+                    <h4><b>3518 Bellaire Ct. </b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>5 Bed | 4 Bath | 3,893 sqft</p>
+                    <p>$3,000 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt2/first.png" alt="House2" style="width:100%">
+                <div class="container">
+                    <h4><b>7777 Adelaide St.</b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>1 Bed | 1 Bath | 677 sqft</p>
+                    <p>$1,300 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt3/first.png" alt="House3" style="width:100%">
+                <div class="container">
+                    <h4><b>4800 Printers Way</b></h4> 
+                    <p>Frisco, TX 75033</p> 
+                    <p>1 Bed | 1 Bath | 673 sqft</p>
+                    <p>$1,020 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt4/first.png" alt="House4" style="width:100%">
+                <div class="container">
+                    <h4><b>8575 Jacobs St. </b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>2 Bed | 2.5 bath | 1,963 sqft</p>
+                    <p>$2,750 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt5/first.png" alt="House5" style="width:100%">
+                <div class="container">
+                    <h4><b>5807 Hidden Creek Ln.</b></h4> 
+                    <p>Frisco, TX 75036</p> 
+                    <p>5 Bed | 4.5 Bath | 3,915 sqft</p>
+                    <p>$2,900 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt6/first.png" alt="House6" style="width:100%">
+                <div class="container">
+                    <h4><b>4255 Cotton Gin Rd.</b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>1 Bed | 1 Bath | 650 sqft</p>
+                    <p>$1,400 - $1,700 a month</p>
+                </div>
+        </div>
+<div class="card">
+            <img src="images/Renting/Apt1/first.png" alt="House1" style="width:100%">
+                <div class="container">
+                    <h4><b>3518 Bellaire Ct. </b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>5 Bed | 4 Bath | 3,893 sqft</p>
+                    <p>$3,000 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt2/first.png" alt="House2" style="width:100%">
+                <div class="container">
+                    <h4><b>7777 Adelaide St.</b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>1 Bed | 1 Bath | 677 sqft</p>
+                    <p>$1,300 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt3/first.png" alt="House3" style="width:100%">
+                <div class="container">
+                    <h4><b>4800 Printers Way</b></h4> 
+                    <p>Frisco, TX 75033</p> 
+                    <p>1 Bed | 1 Bath | 673 sqft</p>
+                    <p>$1,020 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt4/first.png" alt="House4" style="width:100%">
+                <div class="container">
+                    <h4><b>8575 Jacobs St. </b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>2 Bed | 2.5 bath | 1,963 sqft</p>
+                    <p>$2,750 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt5/first.png" alt="House5" style="width:100%">
+                <div class="container">
+                    <h4><b>5807 Hidden Creek Ln.</b></h4> 
+                    <p>Frisco, TX 75036</p> 
+                    <p>5 Bed | 4.5 Bath | 3,915 sqft</p>
+                    <p>$2,900 a month</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Renting/Apt6/first.png" alt="House6" style="width:100%">
+                <div class="container">
+                    <h4><b>4255 Cotton Gin Rd.</b></h4> 
+                    <p>Frisco, TX 75034</p> 
+                    <p>1 Bed | 1 Bath | 650 sqft</p>
+                    <p>$1,400 - $1,700 a month</p>
+                </div>
+        </div>
+    </div>
 </asp:Content>

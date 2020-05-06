@@ -185,7 +185,7 @@
                                 <asp:ListItem Value="$0 - $100000" Text="$0 - $100000"></asp:ListItem>
                                 <asp:ListItem Value="$100000 - $400000" Text="$100000 - $400000"></asp:ListItem>
                                 <asp:ListItem>$400000+</asp:ListItem>
-                                </asp:CheckBoxList><br />
+                                </asp:CheckBoxList>
 
                                 <asp:Label ID="Label1" runat="server" ForeColor="#4eb5f1" Text="Price Range per Month (For Renters)" Font-Size="Large"></asp:Label>
                                 <asp:CheckBoxList ID="CheckBoxList5" runat="server" Width="172px" >
