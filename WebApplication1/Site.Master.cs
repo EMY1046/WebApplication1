@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 namespace WebApplication1
 {
     public partial class SiteMaster : MasterPage
-    {/*
+    {
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -33,7 +33,7 @@ namespace WebApplication1
         {
             Response.Redirect("~/Rental.aspx");
         }
-        */
+        
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(DropDownList1.SelectedValue == "Francais")
@@ -45,10 +45,6 @@ namespace WebApplication1
                 Response.Redirect("~/hMainpage.aspx");
             }
         }
-        
-        protected void btnSearch_Click1(object sender, EventArgs e)
-        {
-            //Response.Redirect("~/WebForm2.aspx");
-        }
+       
     }
 }
