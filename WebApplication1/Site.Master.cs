@@ -21,7 +21,7 @@ namespace WebApplication1
 
         protected void btnsearch_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/WebForm2.aspx");
+            Response.Redirect("~/Mainpage.aspx");
         }
 
         protected void btnSell_Click(object sender, EventArgs e)
