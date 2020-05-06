@@ -1,57 +1,68 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Rental.aspx.cs" Inherits="WebApplication1.Rental" %>
+﻿<%@ Page Title="Rent" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Rental.aspx.cs" Inherits="WebApplication1.Rental" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
-             <tr>
-    <td>
-
-             <p> 
-             </p> 
-            <br />
-            <br />
-    <div style="width: 100%; text-align: center; vertical-align: middle">
-
-        <table style="margin-right: auto; margin-left: auto;">
-            <tr>
-               <td style="border: 1px solid;" vertical-align: middle">
-                    <div style="margin-left:10%">
-                    <asp:ImageButton ID="ImageButton3" runat="server" Width="100%" CausesValidation="false" ImageUrl="~/images/rent111.jpg"></asp:ImageButton>
-                    </div>                   
-                </td>
-                <td style="border: 1px solid;">
-                    <div style="margin-left:10%">
-                    <asp:ImageButton ID="Button11" runat="server" Width="100%" CausesValidation="false" ImageUrl="~/images/rent222.jpg"></asp:ImageButton>
-                    </div>                   
-                </td>
-                <td style="border: 1px solid;">
-                    
-                     <asp:ImageButton ID="ImageButton5" runat="server" Width="100%" CausesValidation="false" ImageUrl="~/images/rent333.jpg"></asp:ImageButton>
-                   
-                </td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid;">
-                    <div style="margin-left:10%">
-                    <asp:ImageButton ID="ImageButton4" runat="server" Width="100%" CausesValidation="false" ImageUrl="~/images/rent444.jpg"></asp:ImageButton>
-                    </div>                   
-                </td>
-                <td style="border: 1px solid;">
-                    <div style="margin-left:10%">
-                    <asp:ImageButton ID="ImageButton1" runat="server" Width="100%" CausesValidation="false" ImageUrl="~/images/rent6.jpg"></asp:ImageButton>
-                    </div>                   
-                </td>
-                <td style="border: 1px solid;">
-                    
-                    <asp:ImageButton ID="ImageButton7" runat="server" Width="100%" CausesValidation="false" ImageUrl="~/images/rent7.jpg"></asp:ImageButton>
-                   
-                </td>
-            </tr>
-            
-        </table>
-        </div>
     
-    </td>
-</tr>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="css/materialize.css" /> 
+    <link rel="stylesheet" href="css/search_page_styles.css" />
+    <link rel="stylesheet" href="css/buyresultstyles.css" />
 
+    <!-- Default search message for a default city -->
+    <div class="main-content-block">
+        <p class="location-msg" style="font-size: medium;">Showing results for homes near Denton, TX</p>
+        <div class="card">
+            <img src="images/Listings/House1/front.png" alt="House1" style="width:100%">
+                <div class="container">
+                    <h4><b>602 Loving Ct.</b></h4> 
+                    <p>Southlake, TX 76092</p> 
+                    <p>5 Bed, 4 Bath</p>
+                    <p>$895,000</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Listings/House2/front.png" alt="House2" style="width:100%">
+                <div class="container">
+                    <h4><b>1100 Tealwood Ct.</b></h4> 
+                    <p>Southlake, TX 76092</p> 
+                    <p>4 Bed, 5 Bath</p>
+                    <p>$990,000</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Listings/House3/front.png" alt="House3" style="width:100%">
+                <div class="container">
+                    <h4><b>2421 Top Rail Ln.</b></h4> 
+                    <p>Southlake, TX 76092</p> 
+                    <p>4 Bed, 4 Bath</p>
+                    <p>$865,000</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Listings/House4/front.png" alt="House4" style="width:100%">
+                <div class="container">
+                    <h4><b>1065 Highland Oaks Dr. </b></h4> 
+                    <p>Southlake, TX 76092</p> 
+                    <p>5 Bed, 4 Bath</p>
+                    <p>$629,000</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Listings/House5/front.png" alt="House5" style="width:100%">
+                <div class="container">
+                    <h4><b>702 Chaucer Ct.</b></h4> 
+                    <p>Southlake, TX 76092</p> 
+                    <p>5 Bed, 4 Bath</p>
+                    <p>$1,100,000</p>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/Listings/House6/front.png" alt="House6" style="width:100%">
+                <div class="container">
+                    <h4><b>1982 E. Highland St.</b></h4> 
+                    <p>Southlake, TX 76092</p> 
+                    <p>5 Bed, 5.1 Bath</p>
+                    <p>$2,899,000</p>
+                </div>
+        </div>
 </asp:Content>
