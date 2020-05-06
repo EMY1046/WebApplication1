@@ -42,7 +42,7 @@ namespace WebApplication1
             }
             else
             {
-                Response.Redirect("~/hMainpage.aspx");
+                Response.Redirect("~/Mainpage.aspx");
             }
         }
        
