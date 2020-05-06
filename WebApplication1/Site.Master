@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication1.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="WebApplication1.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -7,7 +7,6 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <link href="css/search_page_styles.css" type="text/css" rel="stylesheet" />
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" >
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -19,8 +18,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <asp:PlaceHolder runat="server"><%: Scripts.Render("~/bundles/modernizr") %></asp:PlaceHolder>
         <webopt:bundlereference runat="server" path="~/Content/css" />
+        <link href="css/search_page_styles.css" type="text/css" rel="stylesheet" />
 
-        <title>Buying</title>
+        <title>Results</title>
     </head>
     <body>
         <form runat="server">
@@ -57,10 +57,10 @@
                 </div>
                 <form class="navbar-form" role="search">
                     <div class="form-group">
-                        <div class="input-group">
+                        <div class="input-group" style="margin-top: 0;">
                             <input type="text" class="form-control" placeholder="City, State, or Zip Code">
                                 <span class="input-group-btn">
-                                    <button class="btn btn-default" ID="btnsearch" type="button" OnClick="btnsearch_Click"><i class="fa fa-search"></i></button>
+                                    <button class="btn btn-default" ID="btnsearch" type="submit" OnClick="location.href='Mainpage.aspx'"><i class="fa fa-search"></i></button>
                                 </span>
                         </div>
                     </div>
