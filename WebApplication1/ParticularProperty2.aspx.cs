@@ -16,7 +16,7 @@ namespace WebApplication1
 
         protected void btnDone_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/WebForm2.aspx");
+            Response.Redirect("~/Mainpage.aspx");
         }
     }
 }
