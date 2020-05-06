@@ -51,6 +51,32 @@
         	text-align:left;
         	padding-bottom:10px;
         }
+
+        /* Styling for the button */
+a.button3 {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.button3:hover {
+     background-color: #4095c6;
+}
+
+@media all and (max-width:30em) {
+     a.button3 {
+        display: block;
+        margin: 0.2em auto;
+    }
+}
     </style>
 </head>
 <body>
@@ -128,7 +154,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js"></script>
     <script src="scripts/calendarscript.js" type="text/javascript"></script>
-        <asp:Button ID="BtnDoneBooking" runat="server" OnClick="BtnDoneBooking_Click" Text="Done with booking" />
+        <a href="Mainpage.aspx "class="button3">Done with booking</a>
     </form>
 
   </div>
