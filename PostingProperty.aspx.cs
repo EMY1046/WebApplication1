@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Services.Description;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -50,7 +51,8 @@ namespace WebApplication1
 
         protected void btnDone_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/WebForm2.aspx");
+            Response.Redirect("~/PostedProperty.aspx");
         }
+
     }
 }

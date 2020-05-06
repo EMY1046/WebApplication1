@@ -43,18 +43,15 @@
             height: 36px;
             margin-top: 15px;
         }
-        .auto-style10 {
-            height: 0px;
-        }
         .auto-style12 {
-            width: 427px;
+            width: 418px;
         }
         .auto-style14 {
             width: 423px;
             height: 434px;
         }
         .auto-style15 {
-            width: 427px;
+            width: 418px;
             height: 434px;
         }
         </style>
@@ -84,6 +81,8 @@
     media="screen" />
 <!-- Bootstrap -->
 <!-- Bootstrap DatePicker -->
+<link href="css/search_page_styles.css" type="text/css" rel="stylesheet" />
+<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" type="text/css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js" type="text/javascript"></script>
 <!-- Bootstrap DatePicker -->
@@ -101,11 +100,27 @@
 
 
 </head>
+
+            <!-- Navbar -->
+            <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #4eb5f1;">
+                <div class="navbar-header">
+                    <a class="navbar-brand" id="companyname" runat="server" href="landingpage.aspx">Properties Made Easier</a>
+                </div>
+                <div class="navbar-collapse collapse" style="float: right;">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" id="register" class="btn" data-toggle="modal" data-target="#modalRegisterNewUser">Register</a></li>
+                        <li style="color: white; font-size: x-large"><span>|</span></li>
+                        <li><a runat="server" id="login" class="btn " data-toggle="modal" data-target="#modalRegisterForm">Login</a></li>
+                    </ul>             
+                </div>
+            </div>
+
 <body style="height: 627px">
     <form id="form1" runat="server" enctype="multipart/form-data">
     <table align="center" class="auto-style3">
-         
-             <td valign="top" class="auto-style15">
+                <br />
+                <br />
+             <td class="auto-style15">
                 <h2 class="auto-style5">Upload the main image here</h2>
                 <asp:FileUpload ID="FileUpload1" runat="server" Width="371px" />
                  <br />
@@ -169,7 +184,7 @@
         </tr>
  
 
-   </table >
+   </table>
    </form>
 </body>
 </html>
