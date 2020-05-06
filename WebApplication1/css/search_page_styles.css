@@ -11,6 +11,7 @@
 .navbar {
     margin-bottom: 5px;
 }
+
 .navbar-nav > li {
     line-height: 50px;
     position: relative;
@@ -43,6 +44,10 @@
 .form-control {
     height: 36px;
     margin-top: 10px;
+}
+
+.input-group {
+    top: 0px;
 }
 
 @media (min-width: 767px) {
@@ -135,8 +140,7 @@
     width: auto;
     float: right;
     vertical-align: top;
-    margin-right: 10px;
-    margin-top: 15px;
+    margin: 15px 10px 5px 0px;
 }
 
 /* Styling for buy rent sell buttons */
@@ -169,7 +173,6 @@ a.button3:hover {
     }
 }
 
-/* Styling for the register and sign in buttons */
 /* Button styling for the sign in and register forms */
 .button3 {
     display: inline-block;
@@ -185,7 +188,7 @@ a.button3:hover {
     transition: all 0.2s;
 }
 
-/* Styling for the page layout*/
+/* Styling for the results page layout*/
 .page-layout {
     display: grid;
     grid-template-columns: min-content 3fr;
@@ -202,14 +205,12 @@ a.button3:hover {
     grid-row-end: 4;
 }
 
-.greeting {
+.main-content-block {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
     height: 400px;
-
-    
 }
 
 
