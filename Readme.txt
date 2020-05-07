@@ -39,4 +39,4 @@ Le site Web ne propose actuellement que 2 langues.
 Kabonzo Ramazani
 Juan Saldana
 Rupesh Solanki
-Serdar Piriyev.
+Serdar Piriyev
