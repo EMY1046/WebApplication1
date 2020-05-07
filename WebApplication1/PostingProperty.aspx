@@ -10,8 +10,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js" type="text/javascript"></script>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" type="text/css"/>
+        <webopt:bundlereference runat="server" path="~/Content/css" />
         <link href="css/search_page_styles.css" type="text/css" rel="stylesheet" />
-        <link href="css/sellingstyles.css" type="text/css" rel="stylesheet" />
+        <link href="/css/sellingstyles.css" type="text/css" rel="stylesheet" />
 
         <title>Selling</title>
     </head>
@@ -112,20 +113,22 @@
                     <h2 class="instruction-headings"> Upload Other Images of Property</h2>
                     <div class="image-selector">
                         <asp:FileUpload ID="FileUpload2" runat="server"/>
-                            <asp:Image ID="imgA" class="imgthumb" runat="server"/>
+                            <asp:Image ID="imgA" class="imgthumb" runat="server" Height="90px" Width="200px" Margin-right="10px" Margin-bottom="10px"/>
                     </div>
                     <div class="image-selector">
                         <asp:FileUpload ID="FileUpload3" runat="server"/>
-                            <asp:Image ID="imgB" class="imgthumb" runat="server"/>
+                            <asp:Image ID="imgB" class="imgthumb" runat="server" Height="90px" Width="200px" Margin-right="10px" Margin-bottom="10px"/>
                     </div>
                     <div class="image-selector">
                         <asp:FileUpload ID="FileUpload4" runat="server"/>
-                            <asp:Image ID="imgC" class="imgthumb" runat="server"/>
+                            <asp:Image ID="imgC" class="imgthumb" runat="server" Height="90px" Width="200px" Margin-right="10px" Margin-bottom="10px"/>
                     </div>
                     <div class="image-selector">
                         <asp:FileUpload ID="FileUpload5" runat="server"/>
-                            <asp:Image ID="imgD" class="imgthumb" runat="server"/>
+                            <asp:Image ID="imgD" class="imgthumb" runat="server" Height="90px" Width="200px" Margin-right="10px" Margin-bottom="10px"/>
                     </div>
+                    <div><asp:Button ID="btnUpload" runat="server" OnClick="btnUpload_Click" Text="Upload Images" CssClass="col-xs-offset-0" /></div>
+                    
                 </div>
                 <div class="selling-info">
                     <h2 class="instruction-headings">Property Information</h2>
@@ -150,7 +153,7 @@
                     <div class="extra-info response-box" style="text-align: center;">
                     <h2 class="instruction-headings" style="margin: 0;">Extra Information</h2>
                         <asp:TextBox ID="TextBox1" runat="server" Width="900px" Height="80px" Rows="4" TextMode="MultiLine" Placeholder="Enter any extra information a buyer might find useful."></asp:TextBox>
-                        <asp:Button id="Button1" runat="server" OnClick="btnDone_Click" style="margin-top: 55px" Text="Done"></asp:Button>
+                        <br /><a href="PostedProperty.aspx" class="button3" style="margin-top: 10px;">Preview Listing</a>
                     </div>
                 </div>
             </div>
