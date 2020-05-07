@@ -133,6 +133,7 @@
                         </div>
                 </div>
                 <div class="extra-info" style="text-align: center;">
+                    <a href="Mainpage.aspx" class="button3">Go back</a>
                     <a href="Default.aspx" class="button3">Book a tour</a>
                 </div>
             </div>
