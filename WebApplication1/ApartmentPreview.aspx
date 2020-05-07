@@ -106,7 +106,7 @@
             <!-- Grid layout for the fields on the page -->
             <div class="grid-container">
                 <div class="images">
-                    <h2 class="instruction-headings">602 Loving Ct. Southlake, TX 76092</h2>
+                    <h2 class="instruction-headings">3518 Bellaire Ct. Frisco, TX 75034</h2>
                         <asp:Image ID="imgViewFile" src="/images/Renting/Apt1/first.png" style="Height: 225px; Width: 400px;" runat="server"/>
                     <div class="small-images" style="margin-top: 50px;">
                         <h3 style="color: lightgrey">Mouse over images to zoom in</h3>
@@ -132,6 +132,7 @@
                         </div>
                 </div>
                 <div class="extra-info" style="text-align: center;">
+                    <a href="Rental.aspx" class="button3">Go back</a>
                     <a href="Default.aspx" class="button3">Book a tour</a>
                 </div>
             </div>
