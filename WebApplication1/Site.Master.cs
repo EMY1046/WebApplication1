@@ -19,17 +19,9 @@ namespace WebApplication1
             Response.Redirect("~/Mainpage.aspx");
         }
 
-        protected void btnBuy_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/Mainpage.aspx");
-<<<<<<< HEAD
-        }
-
         protected void btnsearch_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/Mainpage.aspx");
-=======
->>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
         }
 
         protected void btnSell_Click(object sender, EventArgs e)
@@ -44,22 +36,7 @@ namespace WebApplication1
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            if(DropDownList1.SelectedValue == "Francais")
-            {
-                Response.Redirect("~/FrenchMainpage.aspx");
-            }
-            else
-            {
-                Response.Redirect("~/Mainpage.aspx");
-            }
->>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
-=======
-
->>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
         }
     }
 }

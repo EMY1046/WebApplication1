@@ -115,10 +115,7 @@
     <Content Include="css\landingstyles.css" />
     <Content Include="css\sellingstyles.css" />
     <Content Include="Default.aspx" />
-<<<<<<< HEAD
     <Content Include="DefaultFrench.aspx" />
-=======
->>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="FrenchMainpage.aspx" />
@@ -196,7 +193,6 @@
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="DefaultFrench.aspx.cs">
       <DependentUpon>DefaultFrench.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -204,8 +200,6 @@
     <Compile Include="DefaultFrench.aspx.designer.cs">
       <DependentUpon>DefaultFrench.aspx</DependentUpon>
     </Compile>
-=======
->>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
     <Compile Include="French.Master.cs">
       <DependentUpon>French.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

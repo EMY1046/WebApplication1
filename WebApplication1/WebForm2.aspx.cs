@@ -7,11 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
-    public partial class DefaultFrench : System.Web.UI.Page
+    public partial class WebForm2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("ParticularProperty.aspx");
         }
     }
 }
