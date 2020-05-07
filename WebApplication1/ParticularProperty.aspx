@@ -1,7 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ParticularProperty.aspx.cs" Inherits="WebApplication1.ParticularProperty" %>
 
 <!DOCTYPE html>
-
 <html>
     <head id="Head1" runat="server">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
@@ -11,6 +10,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js" type="text/javascript"></script>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" type="text/css"/>
+        <webopt:bundlereference runat="server" path="~/Content/css" />
         <link href="css/search_page_styles.css" type="text/css" rel="stylesheet" />
         <link href="css/sellingstyles.css" type="text/css" rel="stylesheet" />
 
@@ -109,10 +109,11 @@
                     <h2 class="instruction-headings">602 Loving Ct. Southlake, TX 76092</h2>
                         <asp:Image ID="imgViewFile" src="/images/Listings/House1/front.png" style="Height: 225px; Width: 400px;" runat="server"/>
                     <div class="small-images" style="margin-top: 50px;">
-                        <asp:Image ID="imgA" src="/images/Listings/House1/dining.png" class="imgthumb" runat="server" Height="90px" Width="200px" Margin-right="10px" Margin-bottom="10px"/>
-                        <asp:Image ID="imgB" src="/images/Listings/House1/entrance.png" class="imgthumb" runat="server" Height="90px" Width="200px" Margin-right="10px" Margin-bottom="10px"/>
-                        <asp:Image ID="imgC" src="/images/Listings/House1/kitchen.png" class="imgthumb" runat="server" Height="90px" Width="200px" Margin-right="10px" Margin-bottom="10px"/>
-                        <asp:Image ID="imgD" src="/images/Listings/House1/living.png" class="imgthumb" runat="server" Height="90px" Width="200px" Margin-right="10px" Margin-bottom="10px"/> 
+                        <h3 style="color: lightgrey">Mouse over images to zoom in</h3>
+                        <asp:Image ID="imgA" src="/images/Listings/House1/dining.png" class="imgthumb preview" runat="server"/>
+                        <asp:Image ID="imgB" src="/images/Listings/House1/entrance.png" class="imgthumb preview" runat="server"/>
+                        <asp:Image ID="imgC" src="/images/Listings/House1/kitchen.png" class="imgthumb preview" runat="server"/>
+                        <asp:Image ID="imgD" src="/images/Listings/House1/living.png" class="imgthumb preview" runat="server"/> 
                     </div>
                 </div>
                 <div class="selling-info">
