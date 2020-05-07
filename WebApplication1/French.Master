@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <<<<<<< HEAD
+<<<<<<< HEAD
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider-min.js"></script>
@@ -21,11 +22,21 @@
 <<<<<<< HEAD
 =======
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+=======
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider-min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
 >>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
+=======
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" >
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.min.css" rel="stylesheet">
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
         <asp:PlaceHolder runat="server"><%: Scripts.Render("~/bundles/modernizr") %></asp:PlaceHolder>
         <webopt:bundlereference runat="server" path="~/Content/css" />
         <link href="css/search_page_styles.css" type="text/css" rel="stylesheet" />
@@ -149,6 +160,9 @@
 
             <!-- Language switching dropdown -->
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
             <script type="text/javascript">
                 function changeLanguage() {
                     var url = document.getElementById('list').value;
@@ -165,6 +179,7 @@
                 </select>
                 <input type="button" value="Go" onclick="changeLanguage()" />
             </form>
+<<<<<<< HEAD
 =======
             <div class="language-switcher">
                 <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
@@ -173,11 +188,14 @@
                  </asp:DropDownList>
             </div>
 >>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
+=======
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
 
             <!-- Filter section and main section of the page --> 
             <div class="page-layout">
                 <div class="sidebar">
                     <div class="button-container">
+<<<<<<< HEAD
 <<<<<<< HEAD
                         <a href="FrenchMainpage.aspx" class="button3">Achat</a><br />
                         <a href="FrenchRental.aspx" class="button3">Location</a><br />
@@ -187,11 +205,17 @@
                         <a href="Rental.aspx" class="button3">Renting</a><br />
                         <a href="PostingProperty.aspx" class="button3">Selling</a><br />
 >>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
+=======
+                        <a href="FrenchMainpage.aspx" class="button3">Achat</a><br />
+                        <a href="FrenchRental.aspx" class="button3">Location</a><br />
+                        <a href="FrenchSelling.aspx" class="button3">Vente</a><br />
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
                     </div>
                     <div class="filters">
                         <table style="margin-right: auto; margin-left: 5px; vertical-align:top; text-align:left; border: none;">
                         <tr>
                             <td class="auto-style1">
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 <asp:Label ID="lblFilter" runat="server" Font-Bold="True" Text="Filtres" Font-Size="X-Large"></asp:Label>
                                 <br />
@@ -201,6 +225,11 @@
                                 <br />
                                 <asp:Label ID="lblradius" runat="server" ForeColor="#4eb5f1" Text="Search radius" Font-Size="Large"></asp:Label>
 >>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
+=======
+                                <asp:Label ID="lblFilter" runat="server" Font-Bold="True" Text="Filtres" Font-Size="X-Large"></asp:Label>
+                                <br />
+                                <asp:Label ID="lblradius" runat="server" ForeColor="#4eb5f1" Text="Rayon de recherche" Font-Size="Large"></asp:Label>
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
                                 &nbsp;<asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="121px" >
                                 <asp:ListItem Value="0 - 20 Miles" Text="0 - 20 Miles"></asp:ListItem>
                                 <asp:ListItem Value="20 - 50 Miles" Text="20 - 50 Miles"></asp:ListItem>
@@ -208,10 +237,14 @@
                                 </asp:CheckBoxList>  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <asp:Label ID="lblBed" runat="server" ForeColor="#4eb5f1" Text="Des lits" Font-Size="Large"></asp:Label>
 =======
                                 <asp:Label ID="lblBed" runat="server" ForeColor="#4eb5f1" Text="Bed" Font-Size="Large"></asp:Label>
 >>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
+=======
+                                <asp:Label ID="lblBed" runat="server" ForeColor="#4eb5f1" Text="Des lits" Font-Size="Large"></asp:Label>
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
                                 &nbsp;<asp:CheckBoxList ID="CheckBoxList2" runat="server" >
                                 <asp:ListItem Value="0 - 3" Text="0 - 3"></asp:ListItem>
                                 <asp:ListItem Value="4 - 6" Text="4 - 6"></asp:ListItem>
@@ -219,10 +252,14 @@
                                 </asp:CheckBoxList> 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <asp:Label ID="lblbath" runat="server" ForeColor="#4eb5f1" Text="Baignoire" Font-Size="Large"></asp:Label>
 =======
                                 <asp:Label ID="lblbath" runat="server" ForeColor="#4eb5f1" Text="Bath" Font-Size="Large"></asp:Label>
 >>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
+=======
+                                <asp:Label ID="lblbath" runat="server" ForeColor="#4eb5f1" Text="Baignoire" Font-Size="Large"></asp:Label>
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
                                 <asp:CheckBoxList ID="CheckBoxList3" runat="server" >
                                 <asp:ListItem Value="0 - 3" Text="0 - 3"></asp:ListItem>
                                 <asp:ListItem Value="4 - 6" Text="4 - 6"></asp:ListItem>
@@ -230,10 +267,14 @@
                                 </asp:CheckBoxList> 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <asp:Label ID="lblprice" runat="server" ForeColor="#4eb5f1" Text="Gamme de prix (pour les acheteurs)" Font-Size="Large"></asp:Label>
 =======
                                 <asp:Label ID="lblprice" runat="server" ForeColor="#4eb5f1" Text="Price Range (For Buyers)" Font-Size="Large"></asp:Label>
 >>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
+=======
+                                <asp:Label ID="lblprice" runat="server" ForeColor="#4eb5f1" Text="Gamme de prix (pour les acheteurs)" Font-Size="Large"></asp:Label>
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
                                 <asp:CheckBoxList ID="CheckBoxList4" runat="server" Width="172px" >
                                 <asp:ListItem Value="$0 - $100000" Text="$0 - $100000"></asp:ListItem>
                                 <asp:ListItem Value="$100000 - $400000" Text="$100000 - $400000"></asp:ListItem>
@@ -241,20 +282,28 @@
                                 </asp:CheckBoxList>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <asp:Label ID="Label1" runat="server" ForeColor="#4eb5f1" Text="Gamme de prix par mois (pour les locataires)" Font-Size="Large"></asp:Label>
 =======
                                 <asp:Label ID="Label1" runat="server" ForeColor="#4eb5f1" Text="Price Range per Month (For Renters)" Font-Size="Large"></asp:Label>
 >>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
+=======
+                                <asp:Label ID="Label1" runat="server" ForeColor="#4eb5f1" Text="Gamme de prix par mois (pour les locataires)" Font-Size="Large"></asp:Label>
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
                                 <asp:CheckBoxList ID="CheckBoxList5" runat="server" Width="172px" >
                                 <asp:ListItem Value="$0 - $2000" Text="$0 - $2000"></asp:ListItem>
                                 <asp:ListItem Value="$2000 - $4000" Text="$2000 - $4000"></asp:ListItem>
                                 <asp:ListItem>$4000+</asp:ListItem>
                                 </asp:CheckBoxList><br />
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <a href="Mainpage.aspx" class="button3">Appliquer</a><br />
 =======
                                 <a href="Mainpage.aspx" class="button3">Apply</a><br />
 >>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
+=======
+                                <a href="Mainpage.aspx" class="button3">Appliquer</a><br />
+>>>>>>> 6d21ac3b51c9ef87c1875d94750af3023e3fe80e
                             </td>  
                         </tr>
                         </table>
