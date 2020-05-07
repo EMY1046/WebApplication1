@@ -138,12 +138,22 @@
             </div>
 
             <!-- Language switching dropdown -->
-            <div class="language-switcher">
-                <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-                    <asp:ListItem>English</asp:ListItem>
-                    <asp:ListItem>Francais</asp:ListItem>
-                 </asp:DropDownList>
-            </div>
+            <script type="text/javascript">
+                function changeLanguage() {
+                    var url = document.getElementById('list').value;
+                    if (url != 'none') {
+                        window.location = url;
+                    }
+                }
+            </script>
+
+            <form class="language-switcher">
+                <select name="list" id="list">
+                    <option value="Mainpage.aspx">English</option>
+                    <option value="FrenchMainpage.aspx">Francais</option>
+                </select>
+                <input type="button" value="Go" onclick="changeLanguage()" />
+            </form>
 
             <!-- Filter section and main section of the page --> 
             <div class="page-layout">

@@ -11,7 +11,7 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         protected void btnBuy_Click(object sender, EventArgs e)
@@ -33,18 +33,10 @@ namespace WebApplication1
         {
             Response.Redirect("~/Rental.aspx");
         }
-        
+
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(DropDownList1.SelectedValue == "Francais")
-            {
-                Response.Redirect("~/FrenchMainpage.aspx");
-            }
-            else
-            {
-                Response.Redirect("~/Mainpage.aspx");
-            }
+
         }
-       
     }
 }
