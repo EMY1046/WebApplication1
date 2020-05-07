@@ -168,6 +168,7 @@
 
                                 <asp:Label ID="lblBed" runat="server" ForeColor="#4eb5f1" Text="Bed" Font-Size="Large"></asp:Label>
                                 &nbsp;<asp:CheckBoxList ID="CheckBoxList2" runat="server" >
+                                <asp:ListItem Value="Studio" Text="Studio"></asp:ListItem>
                                 <asp:ListItem Value="0 - 3" Text="0 - 3"></asp:ListItem>
                                 <asp:ListItem Value="4 - 6" Text="4 - 6"></asp:ListItem>
                                 <asp:ListItem Value="7+" Text="7+"></asp:ListItem>
