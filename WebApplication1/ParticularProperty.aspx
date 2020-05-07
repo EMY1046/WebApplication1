@@ -123,7 +123,11 @@
                             • 5 Bed  </br>
                             • 4 Bath </br>
                             • Fireplace</br>
+<<<<<<< HEAD
+                            • Vaulted Ceilling</br>
+=======
                             • Vaulted Cielings</br>
+>>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
                             • Pool</br>
                             • Hot tub/Spa</br>
                             </br>
