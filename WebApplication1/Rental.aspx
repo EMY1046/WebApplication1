@@ -12,7 +12,7 @@
     <div class="main-content-block">
         <p class="location-msg" style="font-size: medium;">Showing results for rentals near Frisco, TX</p>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt1/first.png" alt="House1" style="width:100%">
                     <div class="container">
                         <h4><b>3518 Bellaire Ct. </b></h4> 
@@ -23,7 +23,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt2/first.png" alt="House2" style="width:100%">
                     <div class="container">
                         <h4><b>7777 Adelaide St.</b></h4> 
@@ -34,7 +34,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt3/first.png" alt="House3" style="width:100%">
                     <div class="container">
                         <h4><b>4800 Printers Way</b></h4> 
@@ -45,7 +45,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt4/first.png" alt="House4" style="width:100%">
                     <div class="container">
                         <h4><b>8575 Jacobs St. </b></h4> 
@@ -56,7 +56,7 @@
              </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt5/first.png" alt="House5" style="width:100%">
                     <div class="container">
                         <h4><b>5807 Hidden Creek Ln.</b></h4> 
@@ -67,7 +67,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt6/first.png" alt="House6" style="width:100%">
                     <div class="container">
                         <h4><b>4255 Cotton Gin Rd.</b></h4> 
@@ -78,7 +78,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt1/first.png" alt="House1" style="width:100%">
                     <div class="container">
                         <h4><b>3518 Bellaire Ct. </b></h4> 
@@ -89,7 +89,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt2/first.png" alt="House2" style="width:100%">
                     <div class="container">
                         <h4><b>7777 Adelaide St.</b></h4> 
@@ -100,7 +100,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt3/first.png" alt="House3" style="width:100%">
                     <div class="container">
                         <h4><b>4800 Printers Way</b></h4> 
@@ -111,7 +111,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt4/first.png" alt="House4" style="width:100%">
                     <div class="container">
                         <h4><b>8575 Jacobs St. </b></h4> 
@@ -122,7 +122,7 @@
              </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt5/first.png" alt="House5" style="width:100%">
                     <div class="container">
                         <h4><b>5807 Hidden Creek Ln.</b></h4> 
@@ -133,7 +133,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+           <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt6/first.png" alt="House6" style="width:100%">
                     <div class="container">
                         <h4><b>4255 Cotton Gin Rd.</b></h4> 
@@ -144,7 +144,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt1/first.png" alt="House1" style="width:100%">
                     <div class="container">
                         <h4><b>3518 Bellaire Ct. </b></h4> 
@@ -155,7 +155,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt2/first.png" alt="House2" style="width:100%">
                     <div class="container">
                         <h4><b>7777 Adelaide St.</b></h4> 
@@ -166,7 +166,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt3/first.png" alt="House3" style="width:100%">
                     <div class="container">
                         <h4><b>4800 Printers Way</b></h4> 
@@ -177,7 +177,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt4/first.png" alt="House4" style="width:100%">
                     <div class="container">
                         <h4><b>8575 Jacobs St. </b></h4> 
@@ -188,7 +188,7 @@
              </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt5/first.png" alt="House5" style="width:100%">
                     <div class="container">
                         <h4><b>5807 Hidden Creek Ln.</b></h4> 
@@ -199,7 +199,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt6/first.png" alt="House6" style="width:100%">
                     <div class="container">
                         <h4><b>4255 Cotton Gin Rd.</b></h4> 
@@ -210,7 +210,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt1/first.png" alt="House1" style="width:100%">
                     <div class="container">
                         <h4><b>3518 Bellaire Ct. </b></h4> 
@@ -221,7 +221,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt2/first.png" alt="House2" style="width:100%">
                     <div class="container">
                         <h4><b>7777 Adelaide St.</b></h4> 
@@ -232,7 +232,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt3/first.png" alt="House3" style="width:100%">
                     <div class="container">
                         <h4><b>4800 Printers Way</b></h4> 
@@ -243,7 +243,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt4/first.png" alt="House4" style="width:100%">
                     <div class="container">
                         <h4><b>8575 Jacobs St. </b></h4> 
@@ -254,7 +254,7 @@
              </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt5/first.png" alt="House5" style="width:100%">
                     <div class="container">
                         <h4><b>5807 Hidden Creek Ln.</b></h4> 
@@ -265,7 +265,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="/ParticularProperty.aspx" style="color: black;">
+            <a href="/ApartmentPreview.aspx" style="color: black;">
                 <img src="images/Renting/Apt6/first.png" alt="House6" style="width:100%">
                     <div class="container">
                         <h4><b>4255 Cotton Gin Rd.</b></h4> 
