@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Services.Description;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -39,18 +40,14 @@ namespace WebApplication1
             if (FileUpload5.HasFile)
             {
                 FileUpload5.SaveAs(MapPath("~/images/House4/" + FileUpload5.FileName));
-                Image1.ImageUrl = "~/images/House4/" + FileUpload5.FileName;
-            }
-            if (FileUpload6.HasFile)
-            {
-                FileUpload6.SaveAs(MapPath("~/images/House4/" + FileUpload6.FileName));
-                Image3.ImageUrl = "~/images/House4/" + FileUpload6.FileName;
+                imgD.ImageUrl = "~/images/House4/" + FileUpload5.FileName;
             }
         }
 
         protected void btnDone_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/WebForm2.aspx");
+            Response.Redirect("~/PostedProperty.aspx");
         }
+
     }
 }
