@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/French.Master" AutoEventWireup="true" CodeBehind="FrenchMainpage.aspx.cs" Inherits="WebApplication1.FrenchMainpage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+<<<<<<< HEAD
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/materialize.css" /> 
@@ -274,4 +275,7 @@
             </a>
         </div>
     </div>
+=======
+
+>>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
 </asp:Content>

@@ -281,4 +281,7 @@ C:\Users\Salda\Documents\GitHub\WebApplication1\WebApplication1\obj\Debug\WebApp
 C:\Users\Salda\Documents\GitHub\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 C:\Users\Salda\Documents\GitHub\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\Salda\Documents\GitHub\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+<<<<<<< HEAD
 C:\Users\Aime Ramazani\Downloads\WebApplication1\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+=======
+>>>>>>> 2d5aadafe0079f037e6a6d685ef50e9bdec6b2d4
