@@ -118,6 +118,8 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="FrenchMainpage.aspx" />
+    <Content Include="FrenchRental.aspx" />
+    <Content Include="FrenchSelling.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -203,6 +205,20 @@
     </Compile>
     <Compile Include="FrenchMainpage.aspx.designer.cs">
       <DependentUpon>FrenchMainpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrenchRental.aspx.cs">
+      <DependentUpon>FrenchRental.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrenchRental.aspx.designer.cs">
+      <DependentUpon>FrenchRental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrenchSelling.aspx.cs">
+      <DependentUpon>FrenchSelling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrenchSelling.aspx.designer.cs">
+      <DependentUpon>FrenchSelling.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

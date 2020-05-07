@@ -16,14 +16,7 @@ namespace WebApplication1
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (DropDownList1.SelectedValue == "English")
-            {
-                Response.Redirect("~/Mainpage");
-            }
-            else
-            {
-                Response.Redirect("~/FrenchMainPage.aspx");
-            }
+
         }
 
         protected void btnsearch_Click(object sender, EventArgs e)
